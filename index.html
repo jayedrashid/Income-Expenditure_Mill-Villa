@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Income & Expenditure_Mill-Villa</title>
+    <meta charset="windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="divThree">
+        <h2>Income & Expenditure of the Month<input class="highlight" type="text"></h2>
+    <button class="print" onclick="myWholePage('divThree')">Print Page</button>
+    <br>
+    <form name="myform">
+        <div>
+            <strong>Total Service Charge collection from Six Tenents:-</strong><br>
+            Service Charge of <input type="text"> is Credited Tk. <input type="text" name="num1"><br>
+            Service Charge of <input type="text"> is Credited Tk. <input type="text" name="num2"><br>
+            Service Charge of <input type="text"> is Credited Tk. <input type="text" name="num3"><br>
+            Service Charge of <input type="text"> is Credited Tk. <input type="text" name="num4"><br>
+            Service Charge of <input type="text"> is Credited Tk. <input type="text" name="num5"><br>
+            Service Charge of <input type="text"> is Credited Tk. <input type="text" name="num6"><br><br>
+            
+            <input class="btn" type="button" name="" value="Add" onclick="add1()">
+            Total Credited (Total Collection) is Tk. <input type="text" name="result" readonly><br><br>
+        </div>
+        
+        <div>
+            <strong>Total Expenses (payments) of Millennium Villa Building:-</strong><br>
+            Salary of Mr. Wahab & Mrs. Sajemunnisa is Debited Tk. <input type="text" name="num7"><br>
+            Salary conveyance is Debited Tk. <input type="text" name="num8"><br>
+            Titas Gas bill is Debited Tk. <input type="text" name="num9"><br>
+            Lift Service is Debited Tk. <input type="text" name="num10"><br>
+            Kollan Somity (Garbage) is Debited Tk. <input type="text" name="num11"><br>
+            DESCO Bill is Debited Tk. <input type="text" name="num12"><br>
+            WASA Bill is Debited Tk. <input type="text" name="num13"><br>
+            Diesel Bill is Debited Tk. <input type="text" name="num14"><br>
+            Photocopy & Documentation is Debited Tk. <input type="text" name="num15"><br>
+            <input type="text"> is Debited Tk. <input type="text" name="num16"><br>
+            <input type="text"> is Debited Tk. <input type="text" name="num17"><br>
+            <input type="text"> is Debited Tk. <input type="text" name="num18"><br><br>
+            
+            <input class="btn" type="button" name="" value="Add" onclick="add2()">
+            Total Debited (Total Payments) is Tk. <input type="text" name="result2" readonly><br><br>
+        </div>
+
+        <div>
+            <strong>MBL Calculation:-</strong><br>
+            <input class="btn" type="button" name="" value="Subtract" onclick="subtract()">
+            Difference (<input type="checkbox">Surplus or <input type="checkbox">Deficit) Tk. <input type="text" name="result3" readonly><br>
+            MBL previusly <input type="checkbox">Receivable or <input type="checkbox">Payable Tk. <input type="text" name="num19"><br>
+            <input class="btn" type="button" name="" value="Add" onclick="add3()">
+            Finally, MBL will <input type="text"> Mr. Wahab Tk. <input type="text" name="result4" readonly><br><br><br>
+           
+            
+            <strong>Signature</strong>
+
+            
+        </div>
+    </div>
+
+
+
+
+
+<!-- 
+        <input type="button" name="" value="Subtract" onclick="subtract()">
+        Subtraction <input type="text" name="result2" readonly><br><br>
+
+        <input type="button" name="" value="Multiply" onclick="multiply()">
+        Multiplication <input type="text" name="result3" readonly><br><br>
+
+        <input type="button" name="" value="Divide" onclick="divide()">
+        Divition <input type="text" name="result4" readonly><br><br> -->
+
+    </form>
+
+</body>
+
+
+</html>

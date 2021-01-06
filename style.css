@@ -1,0 +1,30 @@
+.highlight {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h2 {
+    color: blue;
+}
+
+input {
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+.print {
+    float: right;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: orange;
+    border-radius: 4px;
+}
